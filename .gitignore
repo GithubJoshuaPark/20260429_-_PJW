@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+.conda/
+conda-env/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Project Data (Exclude large log files, include only the 2k test sample)
+data/raw/*
+!data/raw/BGL_2k.log
+data/processed/*
+!data/processed/.gitkeep
+
+# Ignore runtime output logs
+*.log
